@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/* タブレット用CSS */
+@media (max-width: 1000px) {
+  .header-list li {
+    font-size: 16px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .about-longbb-wrapper h2, .cup-description h2 {
+    font-size: 21px;
+  }
+
+  .longbb-description h3, .course h3 {
+    font-size: 18px;
+  }
+
+  .about-longbb-wrapper p, .longbb-description li, .item-description {
+    font-size: 14px;
+  }
+
+  .cup-nav1 .cup-icon, .cup-nav2 .cup-icon {
+    padding: 0 9px;
+  }
+
+  .cup-nav3 .egg-cup, .cup-nav3 .zelda-cup {
+    padding: 3.5px 12px;
+  }
+
+  .cup-nav3 .animal-cup, .cup-nav3 .bell-cup {
+    padding: 8px 12px;
+  }
+
+  .item-description p {
+    font-size: 18px;
+  }
+
+  .footer-logo i {
+    font-size: 21px;
+  }
+
+  .tamago p {
+    font-size: 12px;
+  }
+
+  .tamago a {
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+  }
+}
+
+/* スマートフォン用のCSS */
+@media (max-width: 670px) {
+  .header-list li {
+    font-size: 12px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .about-longbb-wrapper h2, .cup-description h2 {
+    font-size: 18px;
+  }
+
+  .longbb-description h3, .course h3 {
+    font-size: 15px;
+  }
+
+  .about-longbb-wrapper p, .longbb-description li, .item-description {
+    font-size: 11px;
+  }
+
+  #cup-nav .cup-icon {
+    padding: 0 6px;
+  }
+
+  .cup-icon p {
+    font-size: 10px;
+  }
+
+  .cup-nav1, .cup-nav2, .cup-nav3 {
+    width: 100%;
+  }
+
+  .cup-nav3 {
+    position: static;
+    flex-wrap: nowrap;
+  }
+
+  .cup-description a {
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+  }
+
+  .item-description p {
+    font-size: 11px;
+  }
+
+  .footer-logo i {
+    font-size: 18px;
+  }
+
+  .tamago p {
+    font-size: 10px;
+  }
+
+  .tamago a {
+    width: 28px;
+    height: 28px;
+    margin-top: 4px;
+  }
+}
+
+/* iphone5/SE用のCSS */
+@media (max-width: 330px) {
+  .cup-icon p {
+    font-size: 8px;
+  }
+
+  .item-description p {
+    font-size: 9px;
+  }
+}
